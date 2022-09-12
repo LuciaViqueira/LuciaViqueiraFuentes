@@ -1,0 +1,63 @@
+Ejercicio 1
+package org.example;
+
+import java.util.Scanner;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+
+        Scanner teclado = new Scanner(System.in);
+        //Variables
+        String matricula = " ";
+
+
+        do {
+            System.out.println("Introduce una matricula");
+            matricula = teclado.next();
+
+        }while(matricula.length() != 9);
+
+        if(matricula.substring(0,1).matches("[1-9]*") && matricula.substring(2).matches("[A-Z]*")
+        && matricula.substring(3,5).matches("[1-9]*") && matricula.substring(6).matches("-")
+        && matricula.substring(3,5).matches("[1-9]*")){
+            System.out.println(matricula);
+            System.out.println("valid");
+        }else{
+            System.out.println("invalid");
+        }
+
+
+    }
+
+
+
+
+    }
+    
+    Ejercicio2
+    
+    public class App 
+{
+    public static void main( String[] args )
+    {
+        Scanner teclado = new Scanner(System.in);
+        //Variables
+        int num = 0;
+
+        do {
+            System.out.println("Introduzca un numero");
+            num = teclado.nextInt();
+        }while(num<100 || num>1);
+
+
+
+    }
+}
+    
+    
