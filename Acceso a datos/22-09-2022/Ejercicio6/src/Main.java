@@ -6,6 +6,7 @@ public class Main {
 
         ArrayList<Alumnos>alumnos = new ArrayList<>();
 
+        //LA edad son 4 bytes, el double son 8 bytes y el nombre cuentas los caracteres escritos y espacios en total en este caso son 32
         alumnos.add(new Alumnos("Lucia     ", 22, 10));
         alumnos.add(new Alumnos("Pablo     ", 22, 7));
         alumnos.add(new Alumnos("Marcos    ", 31, 7.5));
@@ -29,8 +30,11 @@ public class Main {
             String nombre ="";
             for (int i=0; i<10; i++){
                 nombre+=raf.readChar();
+
+
             }
-            
+            System.out.println(nombre);
+
             raf.readInt();
             raf.readDouble();
 
@@ -39,7 +43,9 @@ public class Main {
             e.printStackTrace();
         }finally {
             try{
-
+                if(raf!=null){
+                    raf.close();
+                }
             }catch (Exception e){
                 e.printStackTrace();
             }
