@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WFEjercicios.Properties;
 
 namespace WFEjercicios
 {
@@ -20,7 +21,7 @@ namespace WFEjercicios
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton1.Checked == true && radioButton4.Checked == true) {
-                  
+                Image image = Resources.FerrariNegro;
             }
 
         }
