@@ -48,5 +48,32 @@ namespace WFEjercicios
             this.panel1.Controls.Add(lblDinamico);
         }
 
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Ejercicio1 formulario = new Ejercicio1();
+            formulario.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Ejercicio2 checkbox = new Ejercicio2();
+            checkbox.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Ejercicio3 coches = new Ejercicio3();
+            coches.ShowDialog();
+        }
     }
 }

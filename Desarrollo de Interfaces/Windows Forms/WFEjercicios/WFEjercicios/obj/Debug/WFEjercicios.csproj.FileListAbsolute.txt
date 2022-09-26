@@ -9,3 +9,5 @@ C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windo
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.csproj.CoreCompileInputs.cache
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.exe
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.pdb
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.Ejercicio1.resources
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.Ejercicio2.resources
