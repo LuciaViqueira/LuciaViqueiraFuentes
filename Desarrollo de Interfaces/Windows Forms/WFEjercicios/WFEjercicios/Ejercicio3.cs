@@ -18,22 +18,79 @@ namespace WFEjercicios
             InitializeComponent();
         }
 
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            elegirCoche();
+        }
+
+        private void elegirCoche() {
+            if (radioButton1.Checked && radioButton4.Checked)
+            {
+                pictureBox1.Image = Resources.FerrariNegro;
+            }
+            if (radioButton1.Checked && radioButton5.Checked)
+            {
+                pictureBox1.Image = Resources.FerrariRojo;
+            }
+            if (radioButton1.Checked && radioButton6.Checked)
+            {
+                pictureBox1.Image = Resources.FerrariAmarillo;
+            }
+            if (radioButton2.Checked && radioButton4.Checked)
+            {
+                pictureBox1.Image = Resources.MasetaratiNegro;
+            }
+            if (radioButton2.Checked && radioButton5.Checked)
+            {
+                pictureBox1.Image = Resources.MasetaratiRojo;
+            }
+            if (radioButton2.Checked && radioButton6.Checked)
+            {
+                pictureBox1.Image = Resources.MaseratiAmarillo;
+            }
+            if (radioButton3.Checked && radioButton4.Checked)
+            {
+                pictureBox1.Image = Resources.BugattiNegro;
+            }
+            if (radioButton3.Checked && radioButton5.Checked)
+            {
+                pictureBox1.Image = Resources.BugattiRojo;
+            }
+            if (radioButton3.Checked && radioButton6.Checked)
+            {
+                pictureBox1.Image = Resources.BugattiAmarillo;
+            }
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            elegirCoche();
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            elegirCoche();
+        }
+
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-            if (radioButton1.Checked == true && radioButton4.Checked == true) {
-                Image image = Resources.FerrariNegro;
-            }
+            elegirCoche();
+        }
 
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+            elegirCoche();
         }
 
         private void radioButton6_CheckedChanged(object sender, EventArgs e)
         {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
+            elegirCoche();
         }
     }
 }
