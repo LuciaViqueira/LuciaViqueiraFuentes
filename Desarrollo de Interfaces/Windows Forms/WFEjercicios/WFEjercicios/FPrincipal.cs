@@ -75,5 +75,17 @@ namespace WFEjercicios
             Ejercicio3 coches = new Ejercicio3();
             coches.ShowDialog();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Ejercicio4 musica = new Ejercicio4();
+            musica.ShowDialog();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Ejercicio5 timer = new Ejercicio5();
+            timer.ShowDialog(); 
+        }
     }
 }

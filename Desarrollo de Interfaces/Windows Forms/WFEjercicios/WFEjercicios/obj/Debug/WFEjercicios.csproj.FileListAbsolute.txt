@@ -12,3 +12,7 @@ C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windo
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.Ejercicio1.resources
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.Ejercicio2.resources
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.Ejercicio3.resources
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\Interop.WMPLib.dll
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.csproj.ResolveComReference.cache
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.Ejercicio4.resources
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.Ejercicio5.resources
