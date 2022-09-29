@@ -103,5 +103,11 @@ namespace WFEjercicios
             Ejercicio6 ejercicio6 = new Ejercicio6();
             ejercicio6.ShowDialog();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Ejercicio7 ejercicio7 = new Ejercicio7();
+            ejercicio7.ShowDialog();
+        }
     }
 }

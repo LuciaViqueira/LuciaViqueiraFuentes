@@ -17,3 +17,4 @@ C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windo
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.Ejercicio4.resources
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.Ejercicio5.resources
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.Ejercicio6.resources
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.Ejercicio7.resources
