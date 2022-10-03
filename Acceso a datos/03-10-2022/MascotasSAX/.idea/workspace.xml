@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6efb61ec-71cc-4bbc-891c-244a4660a815" name="Changes" comment="" />
+    <list default="true" id="e1868aa5-81d7-4a07-bda2-902ecd9b0bd5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +20,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2FcenAzTGyQkNX3tl6uY1Q7WicT" />
+  <component name="ProjectId" id="2FclvFdW4zjErNMjAOZ4HNMjKEd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,20 +32,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Alumno" />
-      <recent name="ParseadorAlumnos" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6efb61ec-71cc-4bbc-891c-244a4660a815" name="Changes" comment="" />
-      <created>1664795965322</created>
+      <changelist id="e1868aa5-81d7-4a07-bda2-902ecd9b0bd5" name="Changes" comment="" />
+      <created>1664799484112</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1664795965322</updated>
+      <updated>1664799484112</updated>
     </task>
     <servers />
   </component>
