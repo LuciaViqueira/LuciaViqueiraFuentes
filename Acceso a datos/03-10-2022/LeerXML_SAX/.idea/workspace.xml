@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95896b0a-6dbd-4bcc-8431-0811b491d852" name="Changes" comment="" />
+    <list default="true" id="6efb61ec-71cc-4bbc-891c-244a4660a815" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +10,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2FLlzuMKA6fmn7Xe1In8Dh1pqaz" />
+  <component name="ProjectId" id="2FcenAzTGyQkNX3tl6uY1Q7WicT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,18 +19,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/FP/Documents/GitHub/LuciaViqueiraFuentes/Acceso a datos/29-09-2022/Xml2"
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="95896b0a-6dbd-4bcc-8431-0811b491d852" name="Changes" comment="" />
-      <created>1664279518166</created>
+      <changelist id="6efb61ec-71cc-4bbc-891c-244a4660a815" name="Changes" comment="" />
+      <created>1664795965322</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1664279518166</updated>
+      <updated>1664795965322</updated>
     </task>
     <servers />
   </component>

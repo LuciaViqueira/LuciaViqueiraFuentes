@@ -58,6 +58,16 @@ public class Main {
                     mascota1.setNombre(valNombre);
                     mascota1.setTipo(valTipo);
 
+                    Mascota leo = new Mascota();
+                    leo.setNombre("Leo");
+                    leo.setEdad(6);
+
+                    for (Mascota obj: mascotas){
+                        if(obj.getNombre().equals("Churchill")){
+                            obj.setGenero("Macho");
+                        }
+                    }
+
                     if(valEdad!=null){
                         mascota1.setEdad(Integer.parseInt(valEdad));
                     }
