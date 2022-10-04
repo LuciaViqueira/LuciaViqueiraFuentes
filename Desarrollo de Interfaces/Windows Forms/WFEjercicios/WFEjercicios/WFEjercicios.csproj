@@ -89,6 +89,24 @@
     <Compile Include="Ejercicio7.Designer.cs">
       <DependentUpon>Ejercicio7.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicio8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio8.Designer.cs">
+      <DependentUpon>Ejercicio8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio9.Designer.cs">
+      <DependentUpon>Ejercicio9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio9b.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio9b.Designer.cs">
+      <DependentUpon>Ejercicio9b.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +141,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio7.resx">
       <DependentUpon>Ejercicio7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio8.resx">
+      <DependentUpon>Ejercicio8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio9.resx">
+      <DependentUpon>Ejercicio9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio9b.resx">
+      <DependentUpon>Ejercicio9b.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FPrincipal.resx">
       <DependentUpon>FPrincipal.cs</DependentUpon>
