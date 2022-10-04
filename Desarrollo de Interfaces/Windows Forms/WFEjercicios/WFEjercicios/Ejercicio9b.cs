@@ -57,6 +57,7 @@ namespace WFEjercicios
 
         private void textBox3_Validating(object sender, CancelEventArgs e)
         {
+            errorProvider1.Clear();
             int arrobasComprobar = 0;
             foreach (char c in textBox3.Text)
             {
