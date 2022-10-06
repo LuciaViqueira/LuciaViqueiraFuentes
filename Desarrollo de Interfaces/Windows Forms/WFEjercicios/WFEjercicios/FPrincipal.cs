@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WFEjercicios.Idiomas;
 
 namespace WFEjercicios
 {
@@ -62,6 +65,13 @@ namespace WFEjercicios
         {
             Ejercicio1 formulario = new Ejercicio1();
             formulario.ShowDialog();
+
+            CultureInfo cultura = new CultureInfo("es-ES");
+            cultura.NumberFormat.CurrencySymbol = "$";
+            Thread.CurrentThread.CurrentCulture = cultura;
+            MessageBox.Show("Cultura actual " + CultureInfo.CurrentCulture.Name
+                + "\nPrecio " + (4500.20).ToString("C"));
+           
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -126,6 +136,23 @@ namespace WFEjercicios
         {
             Ejercicio9b ejercicio9B = new Ejercicio9b();
             ejercicio9B.ShowDialog();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
+            label1.Text = Generico.Saludo;
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Ejercicio10 ejercicio10 = new Ejercicio10();
+            ejercicio10.ShowDialog();
         }
     }
 }

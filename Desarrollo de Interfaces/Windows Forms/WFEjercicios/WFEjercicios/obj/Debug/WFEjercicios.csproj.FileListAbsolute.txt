@@ -21,3 +21,8 @@ C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windo
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.Ejercicio8.resources
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.Ejercicio9.resources
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.Ejercicio9b.resources
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.Idiomas.Generico.resources
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.Idiomas.Generico.en.resources
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\bin\Debug\en\WFEjercicios.resources.dll
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\en\WFEjercicios.resources.dll
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\WFEjercicios.Ejercicio10.resources

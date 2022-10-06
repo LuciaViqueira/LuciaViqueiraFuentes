@@ -53,6 +53,12 @@
     <Compile Include="Ejercicio1.Designer.cs">
       <DependentUpon>Ejercicio1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicio10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio10.Designer.cs">
+      <DependentUpon>Ejercicio10.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ejercicio2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,8 +127,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Idiomas\Generico.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Generico.resx</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Ejercicio1.resx">
       <DependentUpon>Ejercicio1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio10.resx">
+      <DependentUpon>Ejercicio10.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio2.resx">
       <DependentUpon>Ejercicio2.cs</DependentUpon>
@@ -164,6 +178,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Idiomas\Generico.en.resx" />
+    <EmbeddedResource Include="Idiomas\Generico.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Generico.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
