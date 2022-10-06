@@ -7,6 +7,13 @@ public class AlumnoJAXB {
     private String  nombre;
     private int edad;
 
+    public AlumnoJAXB() {
+    }
+
+    public AlumnoJAXB(String nombre, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
 
     public String getNombre() {
         return nombre;
@@ -24,17 +31,11 @@ public class AlumnoJAXB {
         this.edad = edad;
     }
 
-    @XmlRootElement (name="listaAlumnos")
-
-    public class Alumnos{
-        private ArrayList<AlumnoJAXB> listaAlumnos;
-
-        public void setListaAlumnos(ArrayList<AlumnoJAXB> listaAlumnos) {
-            this.listaAlumnos = listaAlumnos;
-        }
-        @XmlElement (name= "alumno")
-        public ArrayList<AlumnoJAXB> getListaAlumnos(){
-            return this.listaAlumnos;
-        }
+    @Override
+    public String toString() {
+        return "AlumnoJAXB{" +
+                "nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                '}';
     }
 }
