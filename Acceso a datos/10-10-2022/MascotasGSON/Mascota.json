@@ -1,0 +1,19 @@
+[
+	{
+		"nombre": "Rex",
+		"tipo": "Perro",
+		"edad": "5",
+		"genero": "Macho"
+	},
+	{
+		"nombre": "Luna",
+		"tipo": "Gato",
+		"edad": "10",
+		"genero": "Hembra"
+	},
+	{
+		"nombre": "Churchill",
+		"tipo": "Gato",
+		"edad": "2"
+	}
+]
