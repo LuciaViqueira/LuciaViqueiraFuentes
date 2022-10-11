@@ -13,7 +13,7 @@ public class Main {
         int escena = 1;
         Aventura aventura = realizarLecturaXML(".\\aventura.xml");
         System.out.println(aventura.getTitulo());
-        
+
 
 
     }
