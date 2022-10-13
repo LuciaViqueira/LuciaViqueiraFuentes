@@ -117,7 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <data name="dificil" xml:space="preserve">
+    <value>Dificil</value>
+  </data>
+  <data name="empezar" xml:space="preserve">
+    <value>Empezar</value>
+  </data>
+  <data name="facil" xml:space="preserve">
+    <value>Fácil</value>
+  </data>
+  <data name="idioma" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="medio" xml:space="preserve">
+    <value>Medio</value>
+  </data>
+  <data name="nombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="TextoI" xml:space="preserve">
+    <value>Ingles</value>
+  </data>
+  <data name="TextoS" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="tiempo" xml:space="preserve">
+    <value>Tiempo</value>
+  </data>
 </root>

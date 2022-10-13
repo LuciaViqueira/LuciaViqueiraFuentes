@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Tarea1.Properties {
+namespace Tarea1.Idiomas {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace Tarea1.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    internal class Idioma {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
+        internal Idioma() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace Tarea1.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Tarea1.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Tarea1.Idiomas.Idioma", typeof(Idioma).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,92 +61,83 @@ namespace Tarea1.Properties {
         }
         
         /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        ///   Busca una cadena traducida similar a Dificil.
         /// </summary>
-        internal static System.Drawing.Bitmap anatomiagrey {
+        internal static string dificil {
             get {
-                object obj = ResourceManager.GetObject("anatomiagrey", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("dificil", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        ///   Busca una cadena traducida similar a Empezar.
         /// </summary>
-        internal static System.Drawing.Bitmap codigolyoko {
+        internal static string empezar {
             get {
-                object obj = ResourceManager.GetObject("codigolyoko", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("empezar", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        ///   Busca una cadena traducida similar a Fácil.
         /// </summary>
-        internal static System.Drawing.Bitmap dark {
+        internal static string facil {
             get {
-                object obj = ResourceManager.GetObject("dark", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("facil", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        ///   Busca una cadena traducida similar a Idioma.
         /// </summary>
-        internal static System.Drawing.Bitmap friends {
+        internal static string idioma {
             get {
-                object obj = ResourceManager.GetObject("friends", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("idioma", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        ///   Busca una cadena traducida similar a Medio.
         /// </summary>
-        internal static System.Drawing.Bitmap gilmoregirls {
+        internal static string medio {
             get {
-                object obj = ResourceManager.GetObject("gilmoregirls", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("medio", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        ///   Busca una cadena traducida similar a Nombre.
         /// </summary>
-        internal static System.Drawing.Bitmap hannahmontana {
+        internal static string nombre {
             get {
-                object obj = ResourceManager.GetObject("hannahmontana", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("nombre", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        ///   Busca una cadena traducida similar a Ingles.
         /// </summary>
-        internal static System.Drawing.Bitmap interrogante {
+        internal static string TextoI {
             get {
-                object obj = ResourceManager.GetObject("interrogante", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("TextoI", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        ///   Busca una cadena traducida similar a Español.
         /// </summary>
-        internal static System.Drawing.Bitmap TheCrown {
+        internal static string TextoS {
             get {
-                object obj = ResourceManager.GetObject("TheCrown", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("TextoS", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        ///   Busca una cadena traducida similar a Tiempo.
         /// </summary>
-        internal static System.Drawing.Bitmap you {
+        internal static string tiempo {
             get {
-                object obj = ResourceManager.GetObject("you", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("tiempo", resourceCulture);
             }
         }
     }
