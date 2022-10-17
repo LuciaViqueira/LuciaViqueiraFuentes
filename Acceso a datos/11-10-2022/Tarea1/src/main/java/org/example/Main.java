@@ -12,7 +12,7 @@ public class Main {
         boolean finalpartida = false;
         int escena = 1;
         Aventura aventura = realizarLecturaXML(".\\aventura.xml");
-        System.out.println(aventura.getTitulo());
+        System.out.println(aventura);
 
 
 

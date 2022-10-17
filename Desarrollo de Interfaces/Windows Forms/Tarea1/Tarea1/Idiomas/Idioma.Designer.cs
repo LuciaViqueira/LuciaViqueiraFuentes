@@ -61,6 +61,15 @@ namespace Tarea1.Idiomas {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Ahora no puedes cambiar nivel.
+        /// </summary>
+        internal static string cambiarnivel {
+            get {
+                return ResourceManager.GetString("cambiarnivel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Dificil.
         /// </summary>
         internal static string dificil {
@@ -79,11 +88,38 @@ namespace Tarea1.Idiomas {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Ingles.
+        /// </summary>
+        internal static string en {
+            get {
+                return ResourceManager.GetString("en", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Español.
+        /// </summary>
+        internal static string es {
+            get {
+                return ResourceManager.GetString("es", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Fácil.
         /// </summary>
         internal static string facil {
             get {
                 return ResourceManager.GetString("facil", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Fin del tiempo.
+        /// </summary>
+        internal static string finalizar {
+            get {
+                return ResourceManager.GetString("finalizar", resourceCulture);
             }
         }
         
@@ -97,11 +133,29 @@ namespace Tarea1.Idiomas {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a El juego no empezo.
+        /// </summary>
+        internal static string imagenescontrol {
+            get {
+                return ResourceManager.GetString("imagenescontrol", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Medio.
         /// </summary>
         internal static string medio {
             get {
                 return ResourceManager.GetString("medio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Tienes que escoger nivel.
+        /// </summary>
+        internal static string nivel {
+            get {
+                return ResourceManager.GetString("nivel", resourceCulture);
             }
         }
         

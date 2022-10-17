@@ -117,20 +117,38 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="cambiarnivel" xml:space="preserve">
+    <value>Ahora no puedes cambiar nivel</value>
+  </data>
   <data name="dificil" xml:space="preserve">
     <value>Dificil</value>
   </data>
   <data name="empezar" xml:space="preserve">
     <value>Empezar</value>
   </data>
+  <data name="en" xml:space="preserve">
+    <value>Ingles</value>
+  </data>
+  <data name="es" xml:space="preserve">
+    <value>Español</value>
+  </data>
   <data name="facil" xml:space="preserve">
     <value>Fácil</value>
+  </data>
+  <data name="finalizar" xml:space="preserve">
+    <value>Fin del tiempo</value>
   </data>
   <data name="idioma" xml:space="preserve">
     <value>Idioma</value>
   </data>
+  <data name="imagenescontrol" xml:space="preserve">
+    <value>El juego no empezo</value>
+  </data>
   <data name="medio" xml:space="preserve">
     <value>Medio</value>
+  </data>
+  <data name="nivel" xml:space="preserve">
+    <value>Tienes que escoger nivel</value>
   </data>
   <data name="nombre" xml:space="preserve">
     <value>Nombre</value>
