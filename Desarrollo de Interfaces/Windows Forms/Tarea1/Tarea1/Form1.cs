@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,6 +24,7 @@ namespace Tarea1
        
         int tiempo;
         Boolean comenzar = false;
+        ArrayList imagenes = new ArrayList();
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -453,7 +455,24 @@ namespace Tarea1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            imagenes.Add(pictureBox1);
+            imagenes.Add(pictureBox2);
+            imagenes.Add(pictureBox3);
+            imagenes.Add(pictureBox4);
+            imagenes.Add(pictureBox5);
+            imagenes.Add(pictureBox6);
+            imagenes.Add(pictureBox7);
+            imagenes.Add(pictureBox8);
+            imagenes.Add(pictureBox9);
+            imagenes.Add(pictureBox10);
+            imagenes.Add(pictureBox11);
+            imagenes.Add(pictureBox12);
+            imagenes.Add(pictureBox13);
+            imagenes.Add(pictureBox14);
+            imagenes.Add(pictureBox15);
+            imagenes.Add(pictureBox16);
 
+            
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -591,6 +610,11 @@ namespace Tarea1
                 label4.Text = tiempo.ToString();
             }
         }
+
+        private void compararImagenes(PictureBox picturebox1, PictureBox pictureBox2, ArrayList imagenes) {
+           
+        }
+
 
      
     }
