@@ -11,8 +11,9 @@ public class Main {
 
         boolean finalpartida = false;
         int escena = 1;
-        Aventura aventura = realizarLecturaXML(".\\aventura.xml");
-        System.out.println(aventura);
+        //Aventura aventura = realizarLecturaXML(".\\aventura.xml");
+        //System.out.println(aventura);
+        leerAventura();
 
 
 
@@ -30,6 +31,20 @@ public class Main {
             System.out.println("No se ha podido encontrar el fichero indicado");
         }
         return aventura;
+    }
+
+    private static void leerAventura() throws JAXBException {
+        Aventura aventura = realizarLecturaXML(".\\aventura.xml");
+        System.out.println(aventura.getTitulo());
+        System.out.println(aventura.getEscenas());
+
+        for(int i= 0; i<aventura.getEscenas(); i++){
+
+            
+
+        }
+
+
     }
 
 }
