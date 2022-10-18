@@ -165,4 +165,7 @@
   <data name="tiempo" xml:space="preserve">
     <value>Time</value>
   </data>
+  <data name="titulo" xml:space="preserve">
+    <value>Found the pair of the tv show</value>
+  </data>
 </root>

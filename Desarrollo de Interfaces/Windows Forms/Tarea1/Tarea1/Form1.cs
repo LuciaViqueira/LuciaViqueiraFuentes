@@ -122,7 +122,7 @@ namespace Tarea1
         {
             resetearImagenes();
             if (comenzar) {
-                pictureBox3.Image = theCrown;
+                pictureBox3.Image = dark;
                 if (!primeraImagen)
                 {
                     primeraImagen = true;
@@ -160,7 +160,7 @@ namespace Tarea1
             resetearImagenes();
             if (comenzar)
             {
-                pictureBox4.Image = friends;
+                pictureBox4.Image = gilmoregirls;
                 if (!primeraImagen)
                 {
                     primeraImagen = true;
@@ -197,7 +197,7 @@ namespace Tarea1
             resetearImagenes();
             if (comenzar)
             {
-                pictureBox5.Image = dark;
+                pictureBox5.Image = gilmoregirls;
                 if (!primeraImagen)
                 {
                     primeraImagen = true;
@@ -235,7 +235,7 @@ namespace Tarea1
             resetearImagenes();
             if (comenzar)
             {
-                pictureBox6.Image = dark;
+                pictureBox6.Image = friends;
                 if (!primeraImagen)
                 {
                     primeraImagen = true;
@@ -273,7 +273,7 @@ namespace Tarea1
             resetearImagenes();
             if (comenzar)
             {
-                pictureBox7.Image = gilmoregirls;
+                pictureBox7.Image = dark;
                 if (!primeraImagen)
                 {
                     primeraImagen = true;
@@ -310,7 +310,7 @@ namespace Tarea1
             resetearImagenes();
             if (comenzar)
             {
-                pictureBox8.Image = gilmoregirls;
+                pictureBox8.Image = theCrown;
                 if (!primeraImagen)
                 {
                     primeraImagen = true;
@@ -667,6 +667,7 @@ namespace Tarea1
                 label1.Text = Idioma.idioma;
                 label2.Text = Idioma.nombre;
                 label3.Text = Idioma.tiempo;
+                label5.Text = Idioma.titulo;
 
                 button1.Text = Idioma.facil;
                 button2.Text = Idioma.medio;
@@ -681,6 +682,7 @@ namespace Tarea1
                 label1.Text = Idioma.idioma;
                 label2.Text = Idioma.nombre;
                 label3.Text = Idioma.tiempo;
+                label5.Text = Idioma.titulo;
 
                 button1.Text = Idioma.facil;
                 button2.Text = Idioma.medio;

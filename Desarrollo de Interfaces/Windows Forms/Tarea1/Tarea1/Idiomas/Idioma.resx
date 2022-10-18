@@ -165,4 +165,7 @@
   <data name="tiempo" xml:space="preserve">
     <value>Tiempo</value>
   </data>
+  <data name="titulo" xml:space="preserve">
+    <value>Encuentra la pareja de la serie</value>
+  </data>
 </root>

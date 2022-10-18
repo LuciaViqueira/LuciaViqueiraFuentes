@@ -203,5 +203,14 @@ namespace Tarea1.Idiomas {
                 return ResourceManager.GetString("tiempo", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Encuentra la pareja de la serie.
+        /// </summary>
+        internal static string titulo {
+            get {
+                return ResourceManager.GetString("titulo", resourceCulture);
+            }
+        }
     }
 }
