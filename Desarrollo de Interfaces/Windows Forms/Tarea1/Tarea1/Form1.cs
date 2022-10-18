@@ -28,15 +28,11 @@ namespace Tarea1
         PictureBox pictureBox1ant; 
         PictureBox pictureBox2ant;
 
-
-
         bool primeraImagen = false;
         int valor1 = 0;
         bool segundaImagen = false;
         int valor2 = 0;
    
-
-
         Image friends = Resources.friends;
         Image theCrown = Resources.TheCrown;
         Image dark = Resources.dark;
