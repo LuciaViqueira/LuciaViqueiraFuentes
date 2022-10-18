@@ -38,11 +38,7 @@ public class Main {
         System.out.println(aventura.getTitulo());
         System.out.println(aventura.getEscenas());
 
-        for(int i= 0; i<aventura.getEscenas(); i++){
 
-            
-
-        }
 
 
     }

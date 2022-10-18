@@ -136,7 +136,10 @@
     <value>Fácil</value>
   </data>
   <data name="finalizar" xml:space="preserve">
-    <value>Fin del tiempo</value>
+    <value>terminó el tiempo</value>
+  </data>
+  <data name="ganar" xml:space="preserve">
+    <value>has ganado!!!</value>
   </data>
   <data name="idioma" xml:space="preserve">
     <value>Idioma</value>

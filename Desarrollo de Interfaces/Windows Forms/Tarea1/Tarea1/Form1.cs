@@ -34,7 +34,8 @@ namespace Tarea1
         int valor1 = 0;
         bool segundaImagen = false;
         int valor2 = 0;
-        int tiempoimgenes;
+   
+
 
         Image friends = Resources.friends;
         Image theCrown = Resources.TheCrown;
@@ -46,7 +47,7 @@ namespace Tarea1
         Image you = Resources.you;
         Image interrogante = Resources.interrogante;
 
-        bool ganador = false;
+        int cont = 0;
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -116,11 +117,7 @@ namespace Tarea1
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
                     MessageBox.Show(Idioma.imagenescontrol);
                 }
-                else
-                {
-                    Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-US");
-                    MessageBox.Show(Idioma.imagenescontrol);
-                }
+               
             }
             
         }
@@ -157,11 +154,7 @@ namespace Tarea1
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
                     MessageBox.Show(Idioma.imagenescontrol);
                 }
-                else
-                {
-                    Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-US");
-                    MessageBox.Show(Idioma.imagenescontrol);
-                }
+                
             }
            
         }
@@ -198,11 +191,7 @@ namespace Tarea1
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
                     MessageBox.Show(Idioma.imagenescontrol);
                 }
-                else
-                {
-                    Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-US");
-                    MessageBox.Show(Idioma.imagenescontrol);
-                }
+               
             }
             
         }
@@ -240,11 +229,7 @@ namespace Tarea1
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
                     MessageBox.Show(Idioma.imagenescontrol);
                 }
-                else
-                {
-                    Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-US");
-                    MessageBox.Show(Idioma.imagenescontrol);
-                }
+               
             }
         }
 
@@ -282,11 +267,7 @@ namespace Tarea1
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
                     MessageBox.Show(Idioma.imagenescontrol);
                 }
-                else
-                {
-                    Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-US");
-                    MessageBox.Show(Idioma.imagenescontrol);
-                }
+               
             }
         }
 
@@ -324,11 +305,7 @@ namespace Tarea1
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
                     MessageBox.Show(Idioma.imagenescontrol);
                 }
-                else
-                {
-                    Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-US");
-                    MessageBox.Show(Idioma.imagenescontrol);
-                }
+                
             }
         }
 
@@ -365,11 +342,7 @@ namespace Tarea1
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
                     MessageBox.Show(Idioma.imagenescontrol);
                 }
-                else
-                {
-                    Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-US");
-                    MessageBox.Show(Idioma.imagenescontrol);
-                }
+                
             }
         }
 
@@ -406,11 +379,7 @@ namespace Tarea1
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
                     MessageBox.Show(Idioma.imagenescontrol);
                 }
-                else
-                {
-                    Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-US");
-                    MessageBox.Show(Idioma.imagenescontrol);
-                }
+                
             }
         }
 
@@ -447,11 +416,7 @@ namespace Tarea1
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
                     MessageBox.Show(Idioma.imagenescontrol);
                 }
-                else
-                {
-                    Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-US");
-                    MessageBox.Show(Idioma.imagenescontrol);
-                }
+               
             }
         }
 
@@ -488,11 +453,7 @@ namespace Tarea1
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
                     MessageBox.Show(Idioma.imagenescontrol);
                 }
-                else
-                {
-                    Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-US");
-                    MessageBox.Show(Idioma.imagenescontrol);
-                }
+               
             }
         }
 
@@ -530,11 +491,7 @@ namespace Tarea1
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
                     MessageBox.Show(Idioma.imagenescontrol);
                 }
-                else
-                {
-                    Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-US");
-                    MessageBox.Show(Idioma.imagenescontrol);
-                }
+                
             }
         }
 
@@ -571,11 +528,7 @@ namespace Tarea1
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
                     MessageBox.Show(Idioma.imagenescontrol);
                 }
-                else
-                {
-                    Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-US");
-                    MessageBox.Show(Idioma.imagenescontrol);
-                }
+              
             }
         }
 
@@ -612,11 +565,7 @@ namespace Tarea1
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
                     MessageBox.Show(Idioma.imagenescontrol);
                 }
-                else
-                {
-                    Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-US");
-                    MessageBox.Show(Idioma.imagenescontrol);
-                }
+                
             }
         }
 
@@ -653,11 +602,7 @@ namespace Tarea1
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
                     MessageBox.Show(Idioma.imagenescontrol);
                 }
-                else
-                {
-                    Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-US");
-                    MessageBox.Show(Idioma.imagenescontrol);
-                }
+               
             }
         }
 
@@ -692,11 +637,6 @@ namespace Tarea1
                 if (comboBox1.SelectedIndex == 1)
                 {
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
-                    MessageBox.Show(Idioma.imagenescontrol);
-                }
-                else
-                {
-                    Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-US");
                     MessageBox.Show(Idioma.imagenescontrol);
                 }
             }
@@ -760,6 +700,10 @@ namespace Tarea1
         {
             if (tiempo == 0)
             {
+                if (textBox1.Text == "")
+                {
+                    MessageBox.Show("Falta el nombre");
+                }
                 if (comboBox1.SelectedIndex == 0)
                 {
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-US");
@@ -770,6 +714,7 @@ namespace Tarea1
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
                     MessageBox.Show(Idioma.nivel);
                 }
+                
                 
             }
             else {
@@ -849,14 +794,21 @@ namespace Tarea1
             label4.Text = tiempo.ToString();
             if (tiempo == 0)
             {
-                if (ganador == false) {
+                if (cont < 8)
+                {
                     timer1.Enabled = false;
-                    MessageBox.Show("Lo siento," + " " + textBox1.Text + ". " + Idioma.finalizar);
+                    MessageBox.Show(textBox1.Text + ", " + Idioma.finalizar);
                 }
-                
-
+      
             }
-                       
+            else if (tiempo != 0) {
+                if (cont == 8)
+                {
+                    timer1.Stop();
+                    MessageBox.Show(textBox1.Text + " " + Idioma.ganar);
+                }
+            }
+
             else
             {
                 label4.Text = tiempo.ToString();
@@ -872,7 +824,9 @@ namespace Tarea1
             {
                 pictureBox1.Enabled = false;
                 pictureBox2.Enabled = false;
+                cont++;
             }
+
         }
 
         private void timer2_Tick(object sender, EventArgs e)
@@ -899,8 +853,6 @@ namespace Tarea1
                 valor2 = 0;
             }
 
-        
-           
         }
     }
 }

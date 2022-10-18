@@ -115,11 +115,20 @@ namespace Tarea1.Idiomas {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Fin del tiempo.
+        ///   Busca una cadena traducida similar a terminó el tiempo.
         /// </summary>
         internal static string finalizar {
             get {
                 return ResourceManager.GetString("finalizar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a has ganado!!!.
+        /// </summary>
+        internal static string ganar {
+            get {
+                return ResourceManager.GetString("ganar", resourceCulture);
             }
         }
         
