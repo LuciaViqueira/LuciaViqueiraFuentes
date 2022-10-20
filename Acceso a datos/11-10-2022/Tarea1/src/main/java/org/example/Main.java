@@ -10,16 +10,15 @@ public class Main {
     static Scanner teclado = new Scanner(System.in);
     public static void main(String[] args) throws JAXBException {
 
-        boolean finalpartida = false;
+        boolean finalPartida = false;
         int escena = 0;
-        int escoger = 0;
         Aventura aventura = realizarLecturaXML(".\\aventura.xml");
         //System.out.println(aventura);
         System.out.println(aventura.getTitulo());
-        while(!finalpartida){
-            escena = leerAventura(aventura, escena, finalpartida, escoger);
+        while(finalPartida== false){
+            escena = leerAventura(aventura,finalPartida, escena);
         }
-
+        System.out.println("Fin de la aventura");
     }
     private static Aventura realizarLecturaXML (String ruta) throws JAXBException{
         File file = new File (".\\aventura.xml");
@@ -36,23 +35,30 @@ public class Main {
         return aventura;
     }
 
-    private static int leerAventura(Aventura aventura, int escena, boolean finalPartida, int escoger) {
-
-
+    private static int leerAventura(Aventura aventura, boolean finalPartida, int escena) {
+        int escogerEscena = 0;
+        //En esta linea nos muestra la escena
         System.out.println(aventura.getEscenas().get(escena).getTexto());
-        if(finalPartida == false){
-            for(int i = 0; i<aventura.getEscenas().get(escena).getOpciones().size(); i++){
-                System.out.println(aventura.getEscenas().get(escena).getOpciones().get(i).getTexto());
+            do {
 
-            }
-            escoger = teclado.nextInt();
-            
-            escena =  aventura.getEscenas().get(escena).getOpciones().get(escoger - 1).getResultado();
-        }
+                  for (int i = 0; i < aventura.getEscenas().get(escena).getOpciones().size(); i++) {
+                        //Nos muestra las opciones para cada escena
+                        System.out.println((i+1) + " " +aventura.getEscenas().get(escena).getOpciones().get(i).getTexto());
+
+                    }
+
+                if(aventura.getEscenas().get(escena).getOpciones()==null){
+                    finalPartida = true;
+                }
+                System.out.println("Escoja una escena :");
+                escogerEscena = teclado.nextInt();
+
+                //en esta linea actualizamos escena para que nos vaya a la siguiente
+                escena = aventura.getEscenas().get(escena).getOpciones().get(escogerEscena - 1).getResultado();
+
+            }while(finalPartida==true|| aventura.getEscenas().get(escena).getOpciones()==null);
 
         return escena;
-
     }
-
 
 }
