@@ -121,7 +121,7 @@
     <value>You can't change the level</value>
   </data>
   <data name="dificil" xml:space="preserve">
-    <value>Dificult</value>
+    <value>Hard</value>
   </data>
   <data name="empezar" xml:space="preserve">
     <value>Start</value>
