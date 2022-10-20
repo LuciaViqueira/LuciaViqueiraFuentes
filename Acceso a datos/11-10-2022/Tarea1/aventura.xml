@@ -1,90 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aventura titulo="La Historia Interminable">
 
-<escena codigo="1">
+<escena codigo="0">
 	<texto>No se donde me encuentro solo veo árboles, solo escucho pájaros y solo siento agua caer en mi frente,
-	decido levantarme y veo un reflejo salir detras de un arbol, pero a mi izquierda escucho a un pajarito dolido... 
+decido levantarme y veo un reflejo salir detras de un arbol, pero a mi izquierda escucho a un pajarito dolido... 
 	</texto>
-	<opcion id = "1" texto="Miro lo que hay en el árbol" resultado="2"/>
-	<opcion id = "2" texto="Ayudo al pájaro" resultado="3"/>
-	<opcion id = "3" texto="Decido quedarme allí" resultado="4"/>
+	<opcion id = "1" texto="Miro lo que hay en el árbol" resultado="1"/>
+	<opcion id = "2" texto="Ayudo al pájaro" resultado="2"/>
+	<opcion id = "3" texto="Decido quedarme allí" resultado="3"/>
 </escena>
 	
-<escena codigo="2">
+<escena codigo="1">
 	<texto>
-	Lo que reluce es un hacha, la cojo y observo que tiene unas siglas, derrepente escucho un ruído...
+Lo que reluce es un hacha, la cojo y observo que tiene unas siglas, derrepente escucho un ruído...
 	</texto>
-	<opcion id = "1" texto="Decides ver de donde proviene el ruido" resultado="5"/>
-	<opcion id = "2" texto="Empuñas el hacha y la lanzas hacia el ruido" resultado="6"/>
-	<opcion id = "3" texto="Empuñas el hacha y te quedas quieto" resultado="7"/>		
+	<opcion id = "1" texto="Decides ver de donde proviene el ruido" resultado="4"/>
+	<opcion id = "2" texto="Empuñas el hacha y la lanzas hacia el ruido" resultado="5"/>
+	<opcion id = "3" texto="Empuñas el hacha y te quedas quieto" resultado="6"/>		
+</escena>
+
+<escena codigo="2">
+<texto>
+Me acerco al pájaro y me fijo que tiene un papelito atado a la pata...
+</texto>
+<opcion id = "1" texto="Coges el papelito y dejas al pájaro irse" resultado="7"/>
+<opcion id = "2" texto="Decides coger al pájaro" resultado="8"/>
+<opcion id = "3" texto="Ignoras al pájaro" resultado="3"/>	
 </escena>
 
 <escena codigo="3">
 <texto>
-Me acerco al pájaro y me fijo que tiene un papelito atado a la pata...
+El agua me sigue molestando, miro hacia arriba y veo que es una pequeña cascada...
 </texto>
-<opcion id = "1" texto="Coges el papelito y dejas al pájaro irse" resultado="8"/>
-<opcion id = "2" texto="Decides coger al pájaro" resultado="9"/>
-<opcion id = "3" texto="Ignoras al pájaro" resultado="4"/>	
+<opcion id = "1" texto="Subes a la cascada" resultado="9"/>
+<opcion id = "2" texto="Coges el agua para beberla" resultado="10"/>
+<opcion id = "3" texto="Decides dar unos pasos hacia atrás" resultado="11"/>	
 </escena>
 
 <escena codigo="4">
-<texto>
-El agua me sigue molestando, miro hacia arriba y veo que es una pequeña cascada...
-</texto>
-<opcion id = "1" texto="Subes a la cascada" resultado="10"/>
-<opcion id = "2" texto="Coges el agua para beberla" resultado="11"/>
-<opcion id = "3" texto="Decides dar unos pasos hacia atrás" resultado="12"/>	
-</escena>
-
-<escena codigo="5">
 <texto>
 Aparece una persona, que pelea contra ti, te saca el hacha y te da en la cabeza... Al final la historia si era terminable.
 </texto>	
 </escena>
 
-<escena codigo="6">
+<escena codigo="5">
 <texto>
 Aparece una persona, que consigue el hacha y te da en la cabeza... Al final la historia si era terminable.
 </texto>	
 </escena>
 
-<escena codigo="7">
+<escena codigo="6">
 <texto>
 Aparece una persona y le consigues dar en la cabeza con el hacha... 
 </texto>
-<opcion id = "1" texto="Huyes corriendo" resultado="4"/>
-<opcion id = "2" texto="Te quedas allí" resultado="4"/>
+<opcion id = "1" texto="Huyes corriendo" resultado="3"/>
+<opcion id = "2" texto="Te quedas allí" resultado="3"/>
 </escena>
 
-<escena codigo="8">
+<escena codigo="7">
 <texto>
 Lees el papelito y pone : "Mira hacia arriba". 
 Ves una cascada
 </texto>
-<opcion id = "1" texto="Decides subirla" resultado="10"/>
-<opcion id = "2" texto="Bebes el agua" resultado="11"/>
+<opcion id = "1" texto="Decides subirla" resultado="9"/>
+<opcion id = "2" texto="Bebes el agua" resultado="10"/>
 </escena>
 
-<escena codigo="9">
+<escena codigo="8">
 <texto>
 El pájaro te pica y empiezas a marearte y pierdes el conocimiento...  Al final la historia si era terminable.
 </texto>
 </escena>
 
-<escena codigo="10">
+<escena codigo="9">
 <texto>
 Al subir hay un temblor y te caes de cabeza... Al final la historia si era terminable.
 </texto>
 </escena>
 
-<escena codigo="11">
+<escena codigo="10">
 <texto>
 Cuando la bebes notas un regusto raro y pierdes el conocimiento... Al final la historia si era terminable.
 </texto>
 </escena>
 
-<escena codigo="12">
+<escena codigo="11">
 <texto>
 Tropiezas con una piedra y pierdes el conocimiento... Al final la historia si era terminable.
 </texto>
