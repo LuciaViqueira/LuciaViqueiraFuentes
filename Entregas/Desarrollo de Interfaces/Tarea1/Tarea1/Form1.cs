@@ -796,6 +796,22 @@ namespace Tarea1
                 {
                     timer1.Enabled = false;
                     MessageBox.Show(textBox1.Text + ", " + Idioma.finalizar);
+                    pictureBox1.Enabled = false;
+                    pictureBox2.Enabled = false;
+                    pictureBox3.Enabled = false;
+                    pictureBox4.Enabled = false;
+                    pictureBox5.Enabled = false;
+                    pictureBox6.Enabled = false;
+                    pictureBox7.Enabled = false;
+                    pictureBox8.Enabled = false;
+                    pictureBox9.Enabled = false;
+                    pictureBox10.Enabled = false;
+                    pictureBox11.Enabled = false;
+                    pictureBox12.Enabled = false;
+                    pictureBox13.Enabled = false;
+                    pictureBox14.Enabled = false;
+                    pictureBox15.Enabled = false;
+                    pictureBox16.Enabled = false;
                 }
       
             }
@@ -804,6 +820,7 @@ namespace Tarea1
                 {
                     timer1.Stop();
                     MessageBox.Show(textBox1.Text + " " + Idioma.ganar);
+                
                 }
             }
 
