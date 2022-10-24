@@ -40,15 +40,16 @@ public class Main {
 
 
         System.out.println(aventura.getEscenas().get(escena).getTexto());
-        if(finalPartida == false){
-            for(int i = 0; i<aventura.getEscenas().get(escena).getOpciones().size(); i++){
-                System.out.println(aventura.getEscenas().get(escena).getOpciones().get(i).getTexto());
+        do {
+            for (int i = 0; i < aventura.getEscenas().get(escena).getOpciones().size(); i++) {
+                System.out.println((i + 1) + aventura.getEscenas().get(escena).getOpciones().get(i).getTexto());
 
             }
+        }while (finalPartida != false) ;
             escoger = teclado.nextInt();
-            
-            escena =  aventura.getEscenas().get(escena).getOpciones().get(escoger - 1).getResultado();
-        }
+
+            escena = aventura.getEscenas().get(escena).getOpciones().get(escoger - 1).getResultado();
+
 
         return escena;
 
