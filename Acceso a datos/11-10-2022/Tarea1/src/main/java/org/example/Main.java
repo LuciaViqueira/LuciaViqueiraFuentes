@@ -51,7 +51,7 @@ public class Main {
                 if(aventura.getEscenas().get(escena).getOpciones()==null){
                     finalPartida = true;
                 }
-                
+
                 escogerEscena = teclado.nextInt();
 
                 //en esta linea actualizamos escena para que nos vaya a la siguiente
