@@ -1,18 +1,19 @@
 package org.example;
 
 import java.time.LocalDateTime;
+import java.util.Date;
 
 public class Empleado {
     private String nombre;
     private int edad;
     private boolean contratoFijo;
-    private LocalDateTime alta;
+    private String alta;
     private double sueldo;
 
     public Empleado() {
     }
 
-    public Empleado(String nombre, int edad, boolean contratoFijo, LocalDateTime alta, double sueldo) {
+    public Empleado(String nombre, int edad, boolean contratoFijo, String alta, double sueldo) {
         this.nombre = nombre;
         this.edad = edad;
         this.contratoFijo = contratoFijo;
@@ -44,11 +45,11 @@ public class Empleado {
         this.contratoFijo = contratoFijo;
     }
 
-    public LocalDateTime getAlta() {
+    public String getAlta() {
         return alta;
     }
 
-    public void setAlta(LocalDateTime alta) {
+    public void setAlta(String alta) {
         this.alta = alta;
     }
 
