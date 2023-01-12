@@ -59,6 +59,26 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="FControlesBasicos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FGrid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FPosicionesAlineaciones.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FVisibilidad.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FScrollViewer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="FWrapPanel.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -77,6 +97,21 @@
     </Compile>
     <Compile Include="FCanvas.xaml.cs">
       <DependentUpon>FCanvas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FControlesBasicos.xaml.cs">
+      <DependentUpon>FControlesBasicos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FGrid.xaml.cs">
+      <DependentUpon>FGrid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FPosicionesAlineaciones.xaml.cs">
+      <DependentUpon>FPosicionesAlineaciones.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FVisibilidad.xaml.cs">
+      <DependentUpon>FVisibilidad.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FScrollViewer.xaml.cs">
+      <DependentUpon>FScrollViewer.xaml</DependentUpon>
     </Compile>
     <Compile Include="FWrapPanel.xaml.cs">
       <DependentUpon>FWrapPanel.xaml</DependentUpon>

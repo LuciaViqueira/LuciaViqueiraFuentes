@@ -20,3 +20,13 @@ C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windo
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FDockPanel.baml
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FCanvas.g.cs
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FCanvas.baml
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FGrid.g.cs
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FGrid.baml
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FScrollViewer.g.cs
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FScrollViewer.baml
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FVisibilidad.g.cs
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FVisibilidad.baml
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FControlesBasicos.g.cs
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FPosicionesAlineaciones.g.cs
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FControlesBasicos.baml
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FPosicionesAlineaciones.baml
