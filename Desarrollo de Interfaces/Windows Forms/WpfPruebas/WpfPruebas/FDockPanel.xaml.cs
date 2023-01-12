@@ -18,9 +18,9 @@ namespace WpfPruebas
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class FDockPanel : Window
     {
-        public MainWindow()
+        public FDockPanel()
         {
             InitializeComponent();
         }

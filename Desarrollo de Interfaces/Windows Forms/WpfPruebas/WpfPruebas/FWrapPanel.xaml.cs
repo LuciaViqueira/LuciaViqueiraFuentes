@@ -18,9 +18,9 @@ namespace WpfPruebas
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
     /// </summary>
-    public partial class WrapPanel : Window
+    public partial class FWrapPanel : Window
     {
-        public WrapPanel()
+        public FWrapPanel()
         {
             InitializeComponent();
         }

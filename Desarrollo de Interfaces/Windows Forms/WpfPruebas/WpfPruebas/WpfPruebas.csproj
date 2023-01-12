@@ -55,15 +55,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="WrapPanel.xaml">
+    <Page Include="FCanvas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FWrapPanel.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="StackPanel.xaml">
+    <Page Include="FStackPanel.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="DockPanel.xaml">
+    <Page Include="FDockPanel.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -71,14 +75,17 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="WrapPanel.xaml.cs">
-      <DependentUpon>WrapPanel.xaml</DependentUpon>
+    <Compile Include="FCanvas.xaml.cs">
+      <DependentUpon>FCanvas.xaml</DependentUpon>
     </Compile>
-    <Compile Include="StackPanel.xaml.cs">
-      <DependentUpon>StackPanel.xaml</DependentUpon>
+    <Compile Include="FWrapPanel.xaml.cs">
+      <DependentUpon>FWrapPanel.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DockPanel.xaml.cs">
-      <DependentUpon>DockPanel.xaml</DependentUpon>
+    <Compile Include="FStackPanel.xaml.cs">
+      <DependentUpon>FStackPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FDockPanel.xaml.cs">
+      <DependentUpon>FDockPanel.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

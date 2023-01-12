@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WpfPruebas
 {
     /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
+    /// Lógica de interacción para FCanvas.xaml
     /// </summary>
-    public partial class StackPanel : Window
+    public partial class FCanvas : Window
     {
-        public StackPanel()
+        public FCanvas()
         {
             InitializeComponent();
         }
