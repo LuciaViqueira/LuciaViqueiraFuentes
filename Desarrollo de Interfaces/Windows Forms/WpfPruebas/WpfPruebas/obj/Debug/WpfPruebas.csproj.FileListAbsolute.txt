@@ -30,3 +30,5 @@ C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windo
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FPosicionesAlineaciones.g.cs
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FControlesBasicos.baml
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FPosicionesAlineaciones.baml
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\Pagina1.g.cs
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\Pagina1.baml

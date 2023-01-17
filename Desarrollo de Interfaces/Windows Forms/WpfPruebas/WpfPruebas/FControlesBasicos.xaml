@@ -5,14 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfPruebas"
         mc:Ignorable="d"
-        Title="FControlesBasicos" Height="450" Width="800">
+        Title="FControlesBasicos" Height="600" Width="1000">
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
             <ColumnDefinition/>
             <ColumnDefinition/>
             <ColumnDefinition/>
@@ -29,5 +31,127 @@
         <TextBox VerticalAlignment="Top" Grid.Row="0" Grid.Column="2" Text="Aula nosa" FontSize="20" CharacterCasing ="Upper" TextAlignment="Right" MinLines="2" AcceptsReturn="True"/>
         <PasswordBox VerticalAlignment="Top" Grid.Row="1" Grid.Column="0" FontSize="20" MaxLength="10" PasswordChar="?"/>
         <Button VerticalAlignment="Top" Grid.Row="1" Grid.Column="2" Content="¡Pinchame!" FontSize="20" Width="200" Background="Aqua" Foreground="Violet"/>
+
+        <StackPanel Margin="20" VerticalAlignment="Bottom" Grid.Row="0" Grid.Column="2">
+            <CheckBox VerticalAlignment="Top" Grid.Row="0" Grid.Column="2" Content="Mañana" IsChecked="True" HorizontalAlignment="Left" ToolTip="Ayuda aqui">
+                <CheckBox.LayoutTransform>
+                    <ScaleTransform ScaleX="2" ScaleY="2"></ScaleTransform>
+                </CheckBox.LayoutTransform>
+            </CheckBox>
+            <CheckBox VerticalAlignment="Top" Grid.Row="1" Grid.Column="2" Content="Tarde" IsChecked="False"></CheckBox>
+            <CheckBox VerticalAlignment="Top" Grid.Row="1" Grid.Column="2" Content="Noche" IsChecked="{x:Null}"></CheckBox>
+        </StackPanel>
+
+        <StackPanel Margin="20" VerticalAlignment="Bottom" Grid.Row="1" Grid.Column="2">
+            <RadioButton GroupName="Color" Content="Azul" IsChecked="True"></RadioButton>
+            <RadioButton GroupName="Color" Content="Rojo" IsChecked="False"></RadioButton>
+            <RadioButton GroupName="Color" Content="Amarillo" IsChecked="False"></RadioButton>
+
+            <RadioButton GroupName="Marca" Content="Bugatti" IsChecked="True"></RadioButton>
+            <RadioButton GroupName="Marca" Content="Ferrari" IsChecked="False"></RadioButton>
+            
+        </StackPanel>
+        <StackPanel Margin="20" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1">
+            <ComboBox Margin="0,0,0,20" Width="100" Height="20">
+                <ComboBoxItem>Mañana</ComboBoxItem>
+                <ComboBoxItem>Tarde</ComboBoxItem>
+                <ComboBoxItem>Noche</ComboBoxItem>
+            </ComboBox>
+
+            <ListBox SelectionMode="Single">
+                <ListBoxItem IsSelected="True">Azul</ListBoxItem>
+                <ListBoxItem>Rojo</ListBoxItem>
+                <ListBoxItem>Verde</ListBoxItem>
+            </ListBox>
+        </StackPanel>
+        <!--<StackPanel  Margin="20" VerticalAlignment="Top" Grid.Row="1" Grid.Column="0">
+            <Slider Width="200" Value="5" Minimum="1" Maximum="10" SmallChange="1" LargeChange="2"
+                    TickPlacement="BottomRight" TickFrequency="1" IsSnapToTickEnabled="True"></Slider>
+        </StackPanel>-->
+        <StackPanel Margin="20" VerticalAlignment="Top" Grid.Row="1" Grid.Column="0">
+            <Calendar DisplayMode="Month"  IsTodayHighlighted="True"
+                      DisplayDateStart="1/1/2023" DisplayDateEnd="1/31/2023">
+                <Calendar.BlackoutDates>
+                    <CalendarDateRange Start="1/15/2023" End="1/15/2023"></CalendarDateRange>
+                </Calendar.BlackoutDates>
+            </Calendar>
+        </StackPanel >
+        <StackPanel  Margin="20" VerticalAlignment="Top" Grid.Row="0" Grid.Column="0">
+            <DatePicker Width="200" Height="25" SelectedDate="1/17/2023" SelectedDateFormat="Long">
+                <DatePicker.BlackoutDates>
+                    <CalendarDateRange Start="10/01/2023" End="10/01/2023"/>
+                </DatePicker.BlackoutDates>
+            </DatePicker>
+        </StackPanel>
+        <StackPanel  Margin="20" VerticalAlignment="Top" Grid.Row="0" Grid.Column="0">
+            <!--<ProgressBar Width="100" Height="20" Margin="100" Minimum="0" Maximum="10" Value="5"></ProgressBar>-->
+            <ProgressBar Width="100" Height="20" IsIndeterminate="True"></ProgressBar>
+        </StackPanel>
+        <StackPanel  Margin="20" VerticalAlignment="Bottom" Grid.Row="2" Grid.Column="0">
+            <StatusBar VerticalAlignment="Bottom" Background="Aqua">
+                <StatusBarItem Margin="10" HorizontalAlignment="Left">
+                    <TextBlock>Version1.2</TextBlock>
+                </StatusBarItem>
+                <Separator/>
+                <StatusBarItem Margin="10">
+                    <TextBlock>Ayuda Aplicacion</TextBlock>
+                </StatusBarItem>
+            </StatusBar>
+        </StackPanel>
+        <StackPanel  Margin="20" VerticalAlignment="Top" Grid.Row="2" Grid.Column="1">
+            <Image Height="50" Width="100" Stretch="Fill" Source="D:\2ºDAM\Sistema de Xestion\TareaCorreo\Captura.PNG"></Image>
+        </StackPanel>
+        <StackPanel  Margin="20" VerticalAlignment="Top" Grid.Row="2" Grid.Column="2">
+            <Button Content="Boton" Width="100">
+                <Button.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Copiar"></MenuItem>
+                        <MenuItem Header="Pegar"></MenuItem>
+                    </ContextMenu>
+                </Button.ContextMenu>
+            </Button>
+        </StackPanel>
+
+        <StackPanel  Margin="20" VerticalAlignment="Top" Grid.Row="0" Grid.Column="3">
+            <ToolBarTray Background="White" Width="500">
+                <ToolBar Band="1">
+                    <Button>
+                        <Image Height="20" Width="20" Stretch="Fill" Source="D:\2ºDAM\Sistema de Xestion\TareaCorreo\Captura.PNG"/>
+                    </Button>
+                    <Separator/>
+                    <Button>
+                        <Image Height="20" Width="20" Stretch="Fill" Source="D:\2ºDAM\Sistema de Xestion\TareaCorreo\Captura.PNG"/>
+                    </Button>
+                </ToolBar>
+                <ToolBar Band="1">
+                    <Button Content="Nuevo"/>
+                    <Button Content="Abrir"/>
+                    <Button Content="Guardar"/>
+                    <Separator/>
+                    <Button Content="Salir"/>
+                </ToolBar>
+            </ToolBarTray>
+        </StackPanel>
+        <StackPanel  Margin="20" VerticalAlignment="Top" Grid.Row="1" Grid.Column="3">
+            <TabControl Margin="20">
+                <TabItem Header="Colores">
+                    <StackPanel>
+                        <TextBlock Text="Azul"/>
+                        <TextBlock Text="Rojo"/>
+                        <TextBlock Text="Gris"/>
+                    </StackPanel>
+                </TabItem>
+                <TabItem Header="Frutas">
+                    <StackPanel>
+                        <TextBlock Text="Manzana"/>
+                        <TextBlock Text="Pera"/>
+                        <TextBlock Text="Plátano"/>
+                    </StackPanel>
+                </TabItem>
+            </TabControl>
+        </StackPanel>
+        <Frame Margin="20" VerticalAlignment="Top" Grid.Row="2" Grid.Column="3" Name="islandFrame" Source="Pagina1.xaml">
+             
+        </Frame>
     </Grid>
 </Window>
