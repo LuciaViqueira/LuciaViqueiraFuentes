@@ -63,6 +63,26 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="FDataBinding.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FDataContext.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FEstilos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FEventos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FFuentesPersonalizadas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="FGrid.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -101,6 +121,21 @@
     <Compile Include="FControlesBasicos.xaml.cs">
       <DependentUpon>FControlesBasicos.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FDataBinding.xaml.cs">
+      <DependentUpon>FDataBinding.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FDataContext.xaml.cs">
+      <DependentUpon>FDataContext.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FEstilos.xaml.cs">
+      <DependentUpon>FEstilos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FEventos.xaml.cs">
+      <DependentUpon>FEventos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FFuentesPersonalizadas.xaml.cs">
+      <DependentUpon>FFuentesPersonalizadas.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FGrid.xaml.cs">
       <DependentUpon>FGrid.xaml</DependentUpon>
     </Compile>
@@ -129,6 +164,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NombrePersona.cs" />
     <Compile Include="Pagina1.xaml.cs">
       <DependentUpon>Pagina1.xaml</DependentUpon>
     </Compile>
@@ -149,6 +185,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Resource Include="Fonts\Beautica.otf" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -157,5 +194,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

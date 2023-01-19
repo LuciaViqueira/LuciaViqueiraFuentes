@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+4PtH+m5Ac1YmmW6EWA8RQSTt7+ZPXIYyhUNb9kP/fRSrsn8arlNfjrjGUIS5D7Pu8eQhQaJWbFGE8n1kFkIaA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\FP\\Documents\\GitHub\\LuciaViqueiraFuentes\\Desarrollo de Interfaces\\Windows Forms\\WPFPrueba\\WPFPrueba\\WPFPrueba.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FP\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

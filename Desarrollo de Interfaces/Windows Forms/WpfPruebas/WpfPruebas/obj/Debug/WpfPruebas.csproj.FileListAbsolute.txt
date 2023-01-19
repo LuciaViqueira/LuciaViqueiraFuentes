@@ -32,3 +32,13 @@ C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windo
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FPosicionesAlineaciones.baml
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\Pagina1.g.cs
 C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\Pagina1.baml
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FEstilos.g.cs
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FEstilos.baml
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FFuentesPersonalizadas.g.cs
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FFuentesPersonalizadas.baml
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FEventos.g.cs
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FEventos.baml
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FDataBinding.g.cs
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FDataBinding.baml
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FDataContext.g.cs
+C:\Users\FP\Documents\GitHub\LuciaViqueiraFuentes\Desarrollo de Interfaces\Windows Forms\WpfPruebas\WpfPruebas\obj\Debug\FDataContext.baml
