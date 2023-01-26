@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "M6rWnyLSGs1QUcLAnAktpKGzbkuGthY0V6DiXkmWF17pFzojJ7eMLMCx5fd1zwKZ6ZSI/QcFysEf5aTCJhVtwg==",
+  "success": true,
+  "projectFilePath": "D:\\2ºDAM\\Desenvolvemento de Interfaces\\HarryPotter\\WPFHarryPotter\\WPFHarryPotter\\WPFHarryPotter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FP\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

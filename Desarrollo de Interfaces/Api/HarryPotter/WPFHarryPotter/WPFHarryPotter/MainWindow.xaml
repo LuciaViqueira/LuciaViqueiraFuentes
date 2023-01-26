@@ -1,0 +1,39 @@
+﻿<Window x:Class="WPFHarryPotter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFHarryPotter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="620" Width="1095">
+    <StackPanel Background="Gray">
+        <Grid Height="581" Width="1084">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="220"/>
+                <RowDefinition Height="90"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0"  FontFamily="Copperplate Gothic" FontSize="20" HorizontalAlignment="Center"><Run Text="Buscar por nombre"/></TextBlock>
+            <ComboBox Grid.Row="0" Grid.Column="0" Height="30" Width="360" VerticalAlignment="Top" x:Name="comboBox" SelectionChanged="comboBox_SelectionChanged" Margin="0,46,1,0"/>
+            <Image Grid.Row="0" Grid.Column="1" Height="190" Stretch="Fill" Source="https://i.pinimg.com/originals/55/b9/4e/55b94e3dc2101de8652743c5c9002b67.png" Margin="34,1,37,2"/>
+            <Image Grid.Row="0" Grid.Column="1" Height="160" Width="220" Stretch="Fill" x:Name ="imagen"/>
+            <Button Grid.Row="1" Grid.Column="1" Content="Siguiente" Width="100" Margin="213,20,49,45" FontFamily="Copperplate Gothic" Click="siguiente"/>
+            <Button Grid.Row="1" Grid.Column="1" Content="Anterior" Width="100" Margin="34,22,228,45" FontFamily="Copperplate Gothic" Click="anterior"/>
+            <Image Grid.Row="2" Stretch="Fill" Source="https://i.pinimg.com/474x/5b/f3/5d/5bf35dc55398ac676e65611abc13f393.jpg" Margin="25,6,25,0" Grid.Column="1"/>
+            <TextBlock Grid.Row="2" Grid.Column="1" x:Name="textoNombre" FontFamily="Copperplate Gothic" Margin="0,-50,0,0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Row="2" Grid.Column="1" x:Name="textoGenero" FontFamily="Copperplate Gothic" Margin="0,-30,0,0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Row="2" x:Name="textoCasa" FontFamily="Copperplate Gothic" Margin="361,-10,361,0" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Row="2" Grid.Column="1" x:Name="textoCumple" FontFamily="Copperplate Gothic" Margin="0,10,0,0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Row="2" Grid.Column="1" x:Name="textoPatronus" FontFamily="Copperplate Gothic" Margin="0,30,0,0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Image Grid.Row="0" Grid.Column="2" Stretch="Fill" Source=" https://ladiversiva.com/wp-content/uploads/2021/01/Visita-Hogwarts-online-y-gratis-en-la-gran-semana-de-Harry-Potter.jpg" Margin="10,26,0,0"/>
+            <TextBlock Grid.Row="0" Grid.Column="2"  FontFamily="Copperplate Gothic" FontSize="18" HorizontalAlignment="Center" Width="341"><Run Text="Personajes que viven en Hogwarts"/></TextBlock>
+
+        </Grid>
+    </StackPanel>
+
+</Window>
