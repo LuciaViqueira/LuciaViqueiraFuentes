@@ -13,6 +13,8 @@ public class Tvshow implements Serializable {
 
     private int idCharacter;
 
+    private Character character;
+
 
     public Tvshow() {
     }
@@ -51,12 +53,22 @@ public class Tvshow implements Serializable {
         this.idCharacter = idCharacter;
     }
 
+    @ManyToOne()
+    @JoinColumn(name = "idCharacter", insertable = false, updatable = false)
+    public Character getCharacter(){
+        return character;
+    }
+    public void setCharacter(Character character){
+        this.character = character;
+    }
+
     @Override
     public String toString() {
         return "Tvshow{" +
                 "id=" + id +
                 ", nameTv='" + nameTv + '\'' +
                 ", idCharacter=" + idCharacter +
+                ", character=" + character +
                 '}';
     }
 }

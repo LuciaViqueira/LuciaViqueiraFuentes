@@ -13,6 +13,7 @@ public class Character implements Serializable {
     private int idAPI;
     private String name;
 
+    private Set<Tvshow> tvshows;
 
 
 
@@ -55,7 +56,14 @@ public class Character implements Serializable {
         this.idAPI = idAPI;
     }
 
+    @OneToMany (mappedBy = "character")
+    public Set<Tvshow> getTvshows() {
+        return tvshows;
+    }
 
+    public void setTvshows(Set<Tvshow> tvshows) {
+        this.tvshows = tvshows;
+    }
 
     @Override
     public String toString() {
@@ -63,6 +71,7 @@ public class Character implements Serializable {
                 "id=" + id +
                 ", idAPI=" + idAPI +
                 ", name='" + name + '\'' +
+                ", tvshows=" + tvshows +
                 '}';
     }
 }
